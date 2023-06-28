@@ -1,0 +1,161 @@
+[
+    {
+        "name": "Front-End",
+        "type": 1,
+        "order": 10,
+        "collection": [
+            {
+                "name": "React JS",
+                "order": 10,
+                "rate": "3.5"
+            },
+            {
+                "name": "React Native",
+                "order": 20,
+                "rate": "2.5"
+            },
+            {
+                "name": "Angular JS",
+                "order": 30,
+                "rate": "1.5"
+            }
+        ]
+    },
+    {
+        "name": "Back-End",
+        "type": 2,
+        "order": 20,
+        "collection": [
+            {
+                "name": "PHP",
+                "order": 10,
+                "rate": "4"
+            },
+            {
+                "name": "JavaScript",
+                "order": 20,
+                "rate": "4"
+            },
+            {
+                "name": "TypeScript",
+                "order": 30,
+                "rate": "2.5"
+            }
+        ]
+    },
+    {
+        "name": "Serveur",
+        "type": 3,
+        "order": 30,
+        "collection": [
+            {
+                "name": "Apache",
+                "order": 10,
+                "rate": "3"
+            },
+            {
+                "name": "Node Js",
+                "order": 20,
+                "rate": "3.5"
+            }
+        ]
+    },
+    {
+        "name": "Base De Données",
+        "type": 4,
+        "order": 40,
+        "collection": [
+            {
+                "name": "MySQL",
+                "order": 10,
+                "rate": "4"
+            },
+            {
+                "name": "MariaDB",
+                "order": 20,
+                "rate": "4"
+            },
+            {
+                "name": "MongoDB",
+                "order": 30,
+                "rate": "3"
+            },
+            {
+                "name": "GraphQL",
+                "order": 40,
+                "rate": "2.5"
+            }
+        ]
+    },
+    {
+        "name": "Programmation-Orienté-Objet",
+        "type": 5,
+        "order": 50,
+        "collection": [
+            {
+                "name": "C",
+                "order": 10,
+                "rate": "1"
+            },
+            {
+                "name": "C#",
+                "order": 20,
+                "rate": "1"
+            },
+            {
+                "name": "C++",
+                "order": 30,
+                "rate": "1"
+            },
+            {
+                "name": "Java",
+                "order": 40,
+                "rate": "1"
+            },
+            {
+                "name": "Python",
+                "order": 50,
+                "rate": "2"
+            },
+            {
+                "name": "Spark",
+                "order": 60,
+                "rate": "1"
+            }
+        ]
+    },
+    {
+        "name": "Travaille collaboratif",
+        "type": 6,
+        "order": 60,
+        "collection": [
+            {
+                "name": "Git",
+                "order": 10,
+                "rate": "3"
+            },
+            {
+                "name": "SVN",
+                "order": 20,
+                "rate": "3"
+            }
+        ]
+    },
+    {
+        "name": "Autres",
+        "type": 7,
+        "order": 70,
+        "collection": [
+            {
+                "name": "DevOps",
+                "order": 10,
+                "rate": "4.5"
+            },
+            {
+                "name": "Machine Learning",
+                "order": 20,
+                "rate": "4.5"
+            }
+        ]
+    }
+]

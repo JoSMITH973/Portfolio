@@ -14,6 +14,16 @@
     border-bottom-left-radius:10px;
 }
 
+.nav-link-logo {
+    display: block !important;
+    position: absolute !important;
+    margin-right: 5rem;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
 .navbar-nav > .active > a {
     color: aqua;
     background-color: chartreuse;    
@@ -37,3 +47,19 @@
 #alignSwitch > * {
     margin-left: 10px;
 }
+
+.navbar-logo {
+    height: 3.5rem;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
