@@ -1,160 +1,144 @@
 [
     {
-        "name": "Front-End",
-        "type": 1,
+        "nom": "Front-End",
+        "id": 1,
         "order": 10,
+        "active": true,
         "collection": [
             {
-                "name": "React JS",
+                "nom": "HTML",
                 "order": 10,
-                "rate": "3.5"
+                "active": true,
+                "rate": "4",
+                "color": "#f75421"
             },
             {
-                "name": "React Native",
+                "nom": "CSS",
                 "order": 20,
-                "rate": "2.5"
+                "active": true,
+                "rate": "3.75",
+                "color": "#31a4d5"
             },
             {
-                "name": "Angular JS",
+                "nom": "React JS",
                 "order": 30,
-                "rate": "1.5"
-            }
-        ]
-    },
-    {
-        "name": "Back-End",
-        "type": 2,
-        "order": 20,
-        "collection": [
-            {
-                "name": "PHP",
-                "order": 10,
-                "rate": "4"
+                "active": true,
+                "rate": "3.5",
+                "color": "#5ed8f5"
             },
             {
-                "name": "JavaScript",
-                "order": 20,
-                "rate": "4"
-            },
-            {
-                "name": "TypeScript",
-                "order": 30,
-                "rate": "2.5"
-            }
-        ]
-    },
-    {
-        "name": "Serveur",
-        "type": 3,
-        "order": 30,
-        "collection": [
-            {
-                "name": "Apache",
-                "order": 10,
-                "rate": "3"
-            },
-            {
-                "name": "Node Js",
-                "order": 20,
-                "rate": "3.5"
-            }
-        ]
-    },
-    {
-        "name": "Base De Données",
-        "type": 4,
-        "order": 40,
-        "collection": [
-            {
-                "name": "MySQL",
-                "order": 10,
-                "rate": "4"
-            },
-            {
-                "name": "MariaDB",
-                "order": 20,
-                "rate": "4"
-            },
-            {
-                "name": "MongoDB",
-                "order": 30,
-                "rate": "3"
-            },
-            {
-                "name": "GraphQL",
+                "nom": "React Native",
                 "order": 40,
-                "rate": "2.5"
-            }
-        ]
-    },
-    {
-        "name": "Programmation-Orienté-Objet",
-        "type": 5,
-        "order": 50,
-        "collection": [
-            {
-                "name": "C",
-                "order": 10,
-                "rate": "1"
+                "active": true,
+                "rate": "2.25",
+                "color": "#5ed8f5"
             },
             {
-                "name": "C#",
-                "order": 20,
-                "rate": "1"
-            },
-            {
-                "name": "C++",
-                "order": 30,
-                "rate": "1"
-            },
-            {
-                "name": "Java",
-                "order": 40,
-                "rate": "1"
-            },
-            {
-                "name": "Python",
+                "nom": "Angular JS",
                 "order": 50,
+                "active": true,
+                "rate": "1.5",
+                "color": "#dd2837"
+            }
+        ]
+    },
+    {
+        "nom": "Back-End",
+        "id": 2,
+        "order": 20,
+        "active": true,
+        "collection": [
+            {
+                "nom": "PHP",
+                "order": 10,
+                "active": true,
+                "rate": "4",
+                "color": "#787cb4"
+            },
+            {
+                "nom": "JavaScript",
+                "order": 20,
+                "active": true,
+                "rate": "4.25",
+                "color": "#f7e018"
+            },
+            {
+                "nom": "Python",
+                "order": 50,
+                "active": true,
                 "rate": "2"
-            },
-            {
-                "name": "Spark",
-                "order": 60,
-                "rate": "1"
             }
         ]
     },
     {
-        "name": "Travaille collaboratif",
-        "type": 6,
+        "nom": "Serveur",
+        "id": 3,
+        "order": 30,
+        "active": true,
+        "collection": [
+            {
+                "nom": "Apache",
+                "order": 10,
+                "active": true,
+                "rate": "2.5"
+            },
+            {
+                "nom": "Node Js",
+                "order": 20,
+                "active": true,
+                "rate": "2.75"
+            }
+        ]
+    },
+    {
+        "nom": "Base De Données",
+        "id": 4,
+        "order": 40,
+        "active": true,
+        "collection": [
+            {
+                "nom": "MySQL",
+                "order": 10,
+                "active": true,
+                "rate": "4"
+            },
+            {
+                "nom": "MariaDB",
+                "order": 20,
+                "active": true,
+                "rate": "4"
+            },
+            {
+                "nom": "MongoDB",
+                "order": 30,
+                "active": true,
+                "rate": "2.5"
+            },
+            {
+                "nom": "GraphQL",
+                "order": 40,
+                "active": true,
+                "rate": "2.5"
+            }
+        ]
+    },
+    {
+        "nom": "Versionning",
+        "id": 6,
         "order": 60,
+        "active": true,
         "collection": [
             {
-                "name": "Git",
+                "nom": "Git",
                 "order": 10,
+                "active": true,
                 "rate": "3"
             },
             {
-                "name": "SVN",
+                "nom": "Toroise SVN",
                 "order": 20,
+                "active": true,
                 "rate": "3"
-            }
-        ]
-    },
-    {
-        "name": "Autres",
-        "type": 7,
-        "order": 70,
-        "collection": [
-            {
-                "name": "DevOps",
-                "order": 10,
-                "rate": "4.5"
-            },
-            {
-                "name": "Machine Learning",
-                "order": 20,
-                "rate": "4.5"
             }
         ]
     }
