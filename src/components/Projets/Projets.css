@@ -1,3 +1,55 @@
 .proj {
-    color: black;
+    min-height: 100vh;
+}
+
+.proj-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    justify-content: center;    
+    margin-bottom: 10px;
+}
+
+.proj-card {
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 12px;
+    display: inline-block;
+    transition: 0.3s;
+    /* position: relative; */
+    overflow: hidden;
+    height: 250px;
+}
+
+@media screen and (min-width: 1408px) {
+    .proj-group:not(.is-max-desktop):not(.is-max-widescreen) {
+        max-width: 1344px;
+    }
+}
+
+.proj-card:hover, .card-title {
+    opacity: 1;
+}
+
+.proj-card .card-title {
+    text-align: center;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+}
+
+.card-title:hover {
+    opacity: 100%;
+}
+
+.card-img {
+    z-index: 10;
+    height: 100%;
+    width: auto;
+    justify-content: center;
 }

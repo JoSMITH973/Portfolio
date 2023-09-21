@@ -16,3 +16,11 @@ code {
 #avatar {
     border-radius: 50%;
 }
+
+::-webkit-scrollbar { 
+    width: 8px; border-left: 1px solid #E6ECF8;
+}
+
+::-webkit-scrollbar-thumb { 
+    background-color: #141c3a;
+}

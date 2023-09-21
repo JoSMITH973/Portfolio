@@ -9,7 +9,7 @@ function Parcours() {
             Parcours
         </h1>
         <div className='parc-group'>
-            {data.map((parc)=> (
+            {data.reverse().map((parc)=> (
                 <div className='parc-group-div' key={parc.id}>
                     {parc.nom && (<h4 className='parc-group-div-title'>{parc.nom}</h4>)}
                     {parc.date && (
