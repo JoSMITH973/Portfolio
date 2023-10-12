@@ -34,6 +34,9 @@ function TopBar () {
                     <Link key="5" onClick={() => setExpanded(false)} className="nav-link" smooth spy to="projets">         
                         Projets
                     </Link>
+                    <Link key="6" onClick={() => setExpanded(false)} className="nav-link" smooth spy to="contact">         
+                        Contact
+                    </Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
