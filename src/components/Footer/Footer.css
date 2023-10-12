@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+}
+
+.footer-group > * {
+    margin: 0 2.5vw;
+}
+
+.footer-group > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-group > a:hover {
+    color: #007bff;
+}
