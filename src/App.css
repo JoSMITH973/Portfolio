@@ -8,7 +8,6 @@
     /* color: white; */
 }
 
-
 .App-logo {
 	height: 40vmin;
 	pointer-events: none;
@@ -36,6 +35,15 @@
 section {
     min-height: 90vh;
     padding: 65px 5vh;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#presentation {
+    padding-top: 62.4px;
+    height: 100vh;
 }
 
 /* Debut Gestion couleur */

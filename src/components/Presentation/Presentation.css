@@ -2,6 +2,14 @@
     margin: 0 auto;
     position: relative;
     width: auto;
+    font-family: 'Lobster', cursive;
+    animation-name: scale-in;
+    animation-duration: 1s;
+}
+
+@keyframes scale-in {
+    0% { transform: scale(0.5, 0.5); }
+    50% { transform: scale(1, 1); }
 }
 
 .pres-card {
@@ -11,13 +19,33 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: black;
+    /* color: #DD6B1E; */
+    color: white;
     text-align: center !important;
 }
 
+.pres-card-title::before {
+    width: 0;
+}
+
 .pres-card-title {
+    width: max-content;
     font-weight: 800;
     font-family: "eurostile", sans-serif;
+    font-family: "Lobster", sans-serif;
+}
+
+.pres-card-title-Old {
+    width: max-content;
+    font-weight: 800;
+    font-family: "eurostile", sans-serif;
+    font-family: "Lobster", sans-serif;
+    overflow: hidden; /* S'assure que le contenu ne s'affiche pas avant la fin de l'animation */
+    border-right: .15em solid orange; /* Curseur d'écriture */
+    white-space: nowrap; /* Maintient le contenu sur une seule ligne */
+    animation: 
+        typing 3.5s steps(40, end) alternate infinite 1s,
+        blink-caret .75s step-end infinite;
     line-height: 1.125;
 }
 
@@ -47,4 +75,16 @@
     .pres-card-title {
         font-size: 2rem !important;
     }
+}
+
+/* L'effet d'écriture */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* L'effet du curseur clignotant */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke; }
 }

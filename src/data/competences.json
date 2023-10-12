@@ -23,7 +23,7 @@
                 "nom": "React JS",
                 "order": 30,
                 "active": true,
-                "rate": "3.5",
+                "rate": "3.75",
                 "color": "#5ed8f5"
             },
             {
@@ -97,26 +97,20 @@
         "active": true,
         "collection": [
             {
-                "nom": "MySQL",
+                "nom": "MySQL / MariaDB / PostgreSQL",
                 "order": 10,
                 "active": true,
                 "rate": "4"
             },
             {
-                "nom": "MariaDB",
-                "order": 20,
-                "active": true,
-                "rate": "4"
-            },
-            {
                 "nom": "MongoDB",
-                "order": 30,
+                "order": 20,
                 "active": true,
                 "rate": "2.5"
             },
             {
                 "nom": "GraphQL",
-                "order": 40,
+                "order": 30,
                 "active": true,
                 "rate": "2.5"
             }

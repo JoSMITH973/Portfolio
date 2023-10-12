@@ -1,42 +1,42 @@
 [
     {
-        "id": 0,
+        "id": 10,
         "nom": "DS Exotiques",
+        "type": "Application Web",
         "description": "Blog culinaire",
         "lien": "https://ds-exotiques.fr",
-        "main_image": "",
-        "images": [
-            
-        ]
+        "main_image": "images/dsexotiques.png",
+        "color": "#0d6efd",
+        "images": []
     },
     {
-        "id": 2,
+        "id": 20,
         "nom": "SVentory",
+        "type": "Application Web",
         "description": "Application de gestion d'inventaire",
         "lien": "",
         "main_image": "",
-        "images": [
-            
-        ]
+        "color": "#FFFFFF",
+        "images": []
     },
     {
-        "id": 3,
+        "id": 30,
         "nom": "Your Favorites Simpsons",
+        "type": "Application Web",
         "description": "Application sur laquelle vous pouvez consulter",
         "lien": "",
-        "main_image": "",
-        "images": [
-            
-        ]
+        "main_image": "images/favoritessimpson.png",
+        "color": "#000000",
+        "images": []
     },
     {
-        "id": 4,
+        "id": 40,
         "nom": "Galcktickos CB",
+        "type": "Application Mobile",
         "description": "Application mobile de gestion d'inventaire",
         "lien": "",
         "main_image": "",
-        "images": [
-            
-        ]
+        "color": "#FFFFFF",
+        "images": []
     }
 ]

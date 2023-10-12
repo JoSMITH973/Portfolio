@@ -8,7 +8,7 @@ import Projets from "./components/Projets/Projets";
 function App() {
   return (
     <div className="App">
-        <section id='presentation'>
+        <section id='presentation' style={{backgroundImage: `url(${process.env.PUBLIC_URL}/background_profile2.jpg)`}}>
             <Presentation />
         </section> 
         <section id='competences'>
