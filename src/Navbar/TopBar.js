@@ -21,7 +21,7 @@ function TopBar () {
             <h2 className='topbar-title'>Welcome</h2>
             <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav activeKey={path} className="ml-auto">
+                <Nav activeKey={path} className="ms-auto">
                     <Link key="2" onClick={() => setExpanded(false)} className="nav-link" smooth spy to="presentation">
                         À propos
                     </Link>
