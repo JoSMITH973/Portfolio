@@ -8,5 +8,10 @@
         "id": 2,
         "name": "GitHub",
         "url": "https://github.com/JoSMITH973/"
+    },
+    {
+        "id": 2,
+        "name": "Mail",
+        "url": "mailto:joan.smith@hotmail.fr"
     }
 ]

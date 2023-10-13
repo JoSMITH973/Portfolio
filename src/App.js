@@ -4,7 +4,6 @@ import Presentation from "./components/Presentation/Presentation";
 import Competences from "./components/Competences/Competences";
 import Parcours from "./components/Parcours/Parcours";
 import Projets from "./components/Projets/Projets";
-import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -21,9 +20,6 @@ function App() {
         </section>
         <section id='projets' >
             <Projets />
-        </section>
-        <section id='contact' >
-            <Contact />
         </section>
         <footer id='footer'>
             <Footer />

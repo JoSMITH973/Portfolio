@@ -2,15 +2,18 @@ import { useEffect, useState } from "react";
 import data from "../../data/footer.json";
 import "./Footer.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
 
 function Footer() {
     const [linkedinLink, setLinkedinLink] = useState(null);
     const [githubLink, setGithubLink] = useState(null);
+    const [mailLink, setMailLink] = useState(null);
     
     // On récupère les liens des différents sites une fois  
     useEffect(()=>{
         setLinkedinLink(data.filter(a=>a.name==="LinkedIn")[0].url);
         setGithubLink(data.filter(a=>a.name==="GitHub")[0].url);
+        setMailLink(data.filter(a=>a.name==="Mail")[0].url);
     }, [data]);
 
     // Définition de la taille des icones de linkedin et github
@@ -24,6 +27,9 @@ function Footer() {
                 </a>
                 <a target="_blank" href={githubLink}>
                     <BsGithub size={iconSize} />
+                </a>
+                <a target="_blank" href={mailLink}>
+                    <FiMail size={iconSize} />
                 </a>
 			</div>
             <br/>
