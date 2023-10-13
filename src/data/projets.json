@@ -5,7 +5,7 @@
         "type": "Application Web",
         "description": "Blog culinaire",
         "lien": "https://ds-exotiques.fr",
-        "main_image": "images/dsexotiques.png",
+        "main_image": "images/dsexotiques/dsexotiques.png",
         "color": "#0d6efd",
         "images": []
     },
@@ -15,8 +15,8 @@
         "type": "Application Web",
         "description": "Application de gestion d'inventaire",
         "lien": "",
-        "main_image": "",
-        "color": "#FFFFFF",
+        "main_image": "images/sventory/sventory.png",
+        "color": "#000000",
         "images": []
     },
     {
@@ -25,8 +25,8 @@
         "type": "Application Web",
         "description": "Application sur laquelle vous pouvez consulter",
         "lien": "",
-        "main_image": "images/favoritessimpson.png",
-        "color": "#000000",
+        "main_image": "images/yourfavoritessimpson/yourfavoritessimpson.png",
+        "color": "#16a085",
         "images": []
     },
     {
@@ -35,8 +35,8 @@
         "type": "Application Mobile",
         "description": "Application mobile de gestion d'inventaire",
         "lien": "",
-        "main_image": "",
-        "color": "#FFFFFF",
+        "main_image": "images/galcktickoscb/galcktickoscb.png",
+        "color": "#f5511e",
         "images": []
     }
 ]

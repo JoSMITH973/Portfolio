@@ -4,7 +4,7 @@ import { convertHtmlToReact } from '@hedgedoc/html-to-react';
 
 function Parcours() {
   return (
-    <div className="parc">
+    <div data-aos="fade-up" className="parc">
         <h1 className='comp-title'>
             Parcours
         </h1>

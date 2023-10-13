@@ -9,8 +9,10 @@ function Competences() {
 	const [activeDiv, setActiveDiv] = useState(1);
     // On affecte les compétences en fonction du langage
 
+    
+
 	return (
-		<div className="comp">
+		<div data-aos="fade-up" className="comp">
 			<h1 className="comp-title">Compétences</h1>
 			<br />
 			<div className="comp-group">

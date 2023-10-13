@@ -22,16 +22,16 @@ function TopBar () {
             <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav activeKey={path} className="ms-auto">
-                    <Link key="2" onClick={() => setExpanded(false)} className="nav-link" smooth spy to="presentation">
+                    <Link key="2" onClick={() => setExpanded(false)} className="nav-link" smooth duration={250} spy to="presentation">
                         À propos
                     </Link>
-                    <Link key="3" onClick={() => setExpanded(false)} className="nav-link" smooth spy to="competences">        
+                    <Link key="3" onClick={() => setExpanded(false)} className="nav-link" smooth duration={250} spy to="competences">        
                         Compétences
                     </Link>
-                    <Link key="4" onClick={() => setExpanded(false)} className="nav-link" smooth spy to="parcours">        
+                    <Link key="4" onClick={() => setExpanded(false)} className="nav-link" smooth duration={250} spy to="parcours">        
                         Parcours
                     </Link>
-                    <Link key="5" onClick={() => setExpanded(false)} className="nav-link" smooth spy to="projets">         
+                    <Link key="5" onClick={() => setExpanded(false)} className="nav-link" smooth duration={250} spy to="projets">         
                         Projets
                     </Link>
                 </Nav>

@@ -5,7 +5,13 @@
 
 .parc-group-div {
     border-left: 2px solid;
-    padding: 0 0 20px 20px;
+    padding: 0 0 30px 20px;
+    position: relative;
+}
+
+.parc-group-div:last-child {
+    border-left: 2px solid;
+    padding: 0 0 0 20px;
     position: relative;
 }
 

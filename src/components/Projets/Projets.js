@@ -3,7 +3,7 @@ import data from '../../data/projets.json'
 
 function Projets() {
 	return (
-		<div className="proj">
+		<div data-aos="fade-up" className="proj">
 		{/* <div className="portfolio">
 		<div className="portfolio-container"> */}
 			<h1 className='comp-title'>Projets</h1>

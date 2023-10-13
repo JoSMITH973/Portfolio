@@ -29,11 +29,25 @@
     width: 0;
 }
 
-.pres-card-title {
+.pres-card-name {
     width: max-content;
     font-weight: 800;
-    font-family: "eurostile", sans-serif;
-    font-family: "Lobster", sans-serif;
+    font-family: "raleway", sans-serif;
+}
+
+.pres-card-title {
+    /* width: max-content; */
+    font-weight: 400;
+    /* font-family: "Lobster", sans-serif; */
+    font-family: "poppins", sans-serif;
+}
+
+@media (max-width: 992px) {
+    .pres-card-title {
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 24px;
+    }
 }
 
 .pres-card-title-Old {
@@ -74,7 +88,7 @@
 
 @media screen and (max-width: 768px) {
     .pres-card-title {
-        font-size: 2rem !important;
+        font-size: 20px !important;
     }
 }
 
