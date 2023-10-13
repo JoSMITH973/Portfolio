@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-        <section id='presentation' style={{backgroundImage: `url(${process.env.PUBLIC_URL}/background_profile2.jpg)`}}>
+        <section id='presentation' style={{backgroundImage: `url(${process.env.PUBLIC_URL}/background_profile.jpg)`}}>
             <Presentation />
         </section> 
         <section id='competences'>

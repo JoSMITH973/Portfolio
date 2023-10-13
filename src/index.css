@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../public/fonts/BAHNSCHRIFT.TTF');
+}
+
 #avatar {
     border-radius: 50%;
 }
