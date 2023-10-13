@@ -15,14 +15,33 @@
     width: 16px;
     height: 16px;
     border-radius: 50px;
-    left: -9px;
+    left: -8.3px;
     top: 0;
     background: #fff;
     border: 2px solid;
 }
 
-.parc-group-div-date {
+.parc-group-div > h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    /* color: #0563bb; */
+    margin-bottom: 10px;
+}
+
+/* Old version */
+/* .parc-group-div-date {
     font-size: 20px;
+    background-color: darkgray;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 0.4rem;
+} */
+
+.parc-group-div-date {
+    font-size: 16px;
     background-color: darkgray;
     width: fit-content;
     border-radius: 5px;

@@ -60,6 +60,11 @@
     border-radius: 3px 15px 15px 3px;
     overflow: hidden;
 }
+/* 
+.rate-val::before {
+    width: 0;
+    transition: width 3s;
+} */
 
 .rate-val {
     height: 100%;
@@ -69,4 +74,12 @@
     padding-right: 1vh;
     font-size: 2vh;
     filter: brightness(1.25);
+    animation: loading 2s linear;
+    /* animation-timeline: scroll(); */
+    /* animation-delay: 0.01s; */
+}
+
+@keyframes loading {
+    0% { width: 0px; }
+    100% { width: var(--val); }
 }

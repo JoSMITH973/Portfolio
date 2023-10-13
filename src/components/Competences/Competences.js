@@ -27,6 +27,7 @@ function Competences() {
                                     <div className="comp-group-stack-lng-rate">
                                         <div
                                             style={{
+                                                '--val': el.rate * 20 + "%",
                                                 width: el.rate * 20 + "%",
                                                 // backgroundColor: el.color,
                                             }}

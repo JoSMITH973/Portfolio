@@ -34,7 +34,7 @@
     {
         "id": 5,
         "nom": "Mastère Développeur Manageur Full-Stack (en cours)",
-        "description": "<b>Professionnel :</b>\nDéveloppement d'applications WEB en HTML, CSS, JavaScript et ExtJS, \n   • API sur serveur Apache codé en PHP \n   • Base De Données : MariaDB\n   • Amélioration d'une application Android en Java\n   • Versionning de toutes les applications avec Tortoise SVN\n\n<b>Scolaire :</b>\n   • Projets Web en React JS ou Angular JS et HTML / CSS\n   • Projets Mobile en React Native, Swift et Kotlin\n   • API en JavaScript, TypeScript et Python\n   • Base De Données : MySQL / MariaDB / MongoDB / GraphQL\n   • Versionning et collaboration avec GitHub",
+        "description": "<b>Professionnel :</b>\n• Développement d'applications WEB en HTML, CSS, JavaScript et Framework Ext JS, \n   • API en PHP et Framework Zend \n   • Base De Données : MariaDB\n   • Amélioration d'une application Android en Java\n   • Versionning de toutes les applications avec Tortoise SVN\n\n<b>Scolaire :</b>\n   • Projets Web en HTML, CSS, JavaScript et Framework React JS ou Angular JS\n   • API en JavaScript, TypeScript et Python\n   • Projets Mobile en React Native, Swift et Kotlin\n   • Base De Données : MySQL / MariaDB / MongoDB / GraphQL\n   • Versionning et collaboration avec GitHub",
         "lieu": "École EFREI PARIS / Alternance au Conseil Départemental du Val-De-Marne",
         "ville": "Villejuif et Créteil",
         "date": "Septembre 2021 à Septembre 2023"
