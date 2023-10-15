@@ -22,13 +22,13 @@ function Footer() {
 	return (
 		<div className="footer">
 			<div className="footer-group">
-                <a target="_blank" href={linkedinLink}>
+                <a target="_blank" rel="noreferrer" href={linkedinLink}>
                     <BsLinkedin size={iconSize}  />
                 </a>
-                <a target="_blank" href={githubLink}>
+                <a target="_blank" rel="noreferrer" href={githubLink}>
                     <BsGithub size={iconSize} />
                 </a>
-                <a target="_blank" href={mailLink}>
+                <a target="_blank" rel="noreferrer" href={mailLink}>
                     <FiMail size={iconSize} />
                 </a>
 			</div>
