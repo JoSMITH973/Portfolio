@@ -35,7 +35,8 @@
         "type": "Application Mobile",
         "description": "Application mobile de gestion d'inventaire",
         "lien": "",
-        "main_image": "images/galcktickoscb/galcktickoscb.png",
+        "main_images": "images/galcktickoscb/galcktickoscb.png",
+        "main_image": "",
         "color": "#f5511e",
         "images": []
     }

@@ -37,7 +37,7 @@
 }
 
 section {
-    min-height: 90vh;
+    /* min-height: 90vh; */
     padding: 65px 5vh;
     background-size: cover;
     background-position: center;
