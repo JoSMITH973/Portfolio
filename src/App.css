@@ -74,6 +74,17 @@ section:nth-of-type(2n+1) {
     
 }
 
+/* On applique la marge qu'au titre de la section projet afin de laisser plus de place au slider */
+@media screen and (max-width: 768px) {
+    #projets {
+        padding: 65px 0vh;
+    }
+
+    .comp-title {
+        padding: 0 5vh;
+    }
+}
+
 #footer {
     background-color: #143578;
     color: white;
