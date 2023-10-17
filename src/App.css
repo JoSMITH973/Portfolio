@@ -1,5 +1,6 @@
 :root {
     --col: #ffae09;
+    --themeColor: #143578;
 }
 
 .App {
@@ -65,14 +66,10 @@ section:nth-of-type(2n+1) {
 
 .rate-val {
     /* background-color: #dd6b1e !important; */
-    background-color: #143578 !important;
+    background-color: var(--themeColor) !important;
 
 }
 /* Fin Gestion couleur */
-
-.section-title {
-    
-}
 
 /* On applique la marge qu'au titre de la section projet afin de laisser plus de place au slider */
 @media screen and (max-width: 768px) {
@@ -86,7 +83,7 @@ section:nth-of-type(2n+1) {
 }
 
 #footer {
-    background-color: #143578;
+    background-color: var(--themeColor);
     color: white;
     padding: 30px 0;
 }
