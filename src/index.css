@@ -22,10 +22,6 @@ code {
     src: url('../public/fonts/BAHNSCHRIFT.TTF');
 }
 
-#avatar {
-    border-radius: 50%;
-}
-
 ::-webkit-scrollbar { 
     width: 8px; border-left: 1px solid #E6ECF8;
 }

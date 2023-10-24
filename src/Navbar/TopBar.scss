@@ -25,8 +25,12 @@
 }
 
 .navbar-nav > .active > a {
-    color: aqua;
-    background-color: chartreuse;    
+    // color: aqua;
+    // background-color: chartreuse;    
+}
+
+.navbar-nav .nav-link.active {
+    // color: var(--color-second);
 }
 
 .nav-item > a:hover {
@@ -49,6 +53,8 @@
 }
 
 .topbar-title {
+    margin-left: 1rem;
     vertical-align: middle;
     font-family: 'Lobster', cursive;
+    cursor: pointer;
 }

@@ -1,6 +1,8 @@
 import './Parcours.css';
 import data from '../../data/parcours.json'
 import { convertHtmlToReact } from '@hedgedoc/html-to-react';
+import styled from 'styled-components';
+import {motion} from "framer-motion";
 
 function Parcours() {
   return (
@@ -8,8 +10,9 @@ function Parcours() {
         <h1 className='comp-title'>
             Parcours
         </h1>
+
         <div className='parc-group'>
-            {data.reverse().map((parc)=> (
+            {data.sort((a, b)=> b.id - a.id).map((parc)=> (
                 <div className='parc-group-div' key={parc.id}>
                     {parc.nom && (<h4 className='parc-group-div-title'>{parc.nom}</h4>)}
                     {parc.lieu && (
@@ -33,5 +36,13 @@ function Parcours() {
     </div>
   );
 }
+
+const Grid = styled(motion.div)`
+	width: 100%;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	text-align: center;
+`;
 
 export default Parcours;

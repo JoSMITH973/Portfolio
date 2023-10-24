@@ -1,0 +1,108 @@
+#avatar {
+    border-radius: 50%;
+}
+
+.acc {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    font-family: 'Lobster', cursive;
+    animation-name: scale-in;
+    animation-duration: 1s;
+}
+
+@keyframes scale-in {
+    0% { transform: scale(0.5, 0.5); }
+    50% { transform: scale(1, 1); }
+}
+
+.acc-card {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    /* color: #DD6B1E; */
+    color: white;
+    text-align: center !important;
+}
+
+.acc-card-title::before {
+    width: 0;
+}
+
+.acc-card-name {
+    width: max-content;
+    font-weight: 800;
+    font-family: "raleway", sans-serif;
+}
+
+.acc-card-title {
+    /* width: max-content; */
+    font-weight: 400;
+    /* font-family: "Lobster", sans-serif; */
+    font-family: "poppins", sans-serif;
+}
+
+@media (max-width: 992px) {
+    .acc-card-title {
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
+
+.acc-card-title-Old {
+    width: max-content;
+    font-weight: 800;
+    font-family: "eurostile", sans-serif;
+    font-family: "Lobster", sans-serif;
+    overflow: hidden; /* S'assure que le contenu ne s'affiche pas avant la fin de l'animation */
+    border-right: .15em solid orange; /* Curseur d'écriture */
+    white-space: nowrap; /* Maintient le contenu sur une seule ligne */
+    animation: 
+        typing 3.5s steps(40, end) alternate infinite 1s,
+        blink-caret .75s step-end infinite;
+    line-height: 1.125;
+}
+
+.acc-card-descr {
+    font-weight: 400;
+    font-family: "europa", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.acc-card-title, .acc-card-descr {
+    margin-bottom: 1.5rem;
+}
+
+.acc-card-avatar {
+    margin: 2rem 0;
+    width: 150px;
+}
+
+@media screen and (min-width: 769px) {
+    .acc-card-avatar {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .acc-card-title {
+        font-size: 20px !important;
+    }
+}
+
+/* L'effet d'écriture */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* L'effet du curseur clignotant */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke; }
+}

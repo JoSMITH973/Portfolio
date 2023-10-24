@@ -3,12 +3,12 @@
 }
 
 .comp-group {
-	font-size: calc(10px + 2vmin);
-	color: black;
+	/* font-size: calc(10px + 2vmin);
+	color: black; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
 }
 
 /* Écran supérieur à 600px */

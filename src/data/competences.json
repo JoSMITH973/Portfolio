@@ -3,6 +3,7 @@
         "nom": "Front-End",
         "id": 1,
         "order": 10,
+        "icon": "faCode",
         "active": true,
         "collection": [
             {
@@ -46,6 +47,7 @@
         "nom": "Back-End",
         "id": 2,
         "order": 20,
+        "icon": "faLaptopCode",
         "active": true,
         "collection": [
             {
@@ -94,10 +96,11 @@
         "nom": "Base De Données",
         "id": 4,
         "order": 40,
+        "icon": "faDatabase",
         "active": true,
         "collection": [
             {
-                "nom": "MySQL / MariaDB / PostgreSQL",
+                "nom": "SQL",
                 "order": 10,
                 "active": true,
                 "rate": "4"

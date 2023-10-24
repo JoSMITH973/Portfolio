@@ -1,50 +1,46 @@
-import { useState, useEffect, useCallback } from "react";
-import { CalculateTextWidth } from "../../tools/TextWidth.js";
 import data from "../../data/competences.json";
 import "./Competences.css";
 import { Button, ButtonGroup, DropdownButton, Dropdown } from "react-bootstrap";
 
-function Competences() {
-    // On définit quel catégorie de compétences afficher
-	const [activeDiv, setActiveDiv] = useState(1);
-    // On affecte les compétences en fonction du langage
+import { faCode, faDatabase, faRuler } from '@fortawesome/fontawesome-free-solid';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
-    
+import styled from 'styled-components';
+import { motion } from 'framer-motion';
+
+import { useScroll } from "../../util/useScroll";
+import { slideAnim } from "../../util/animation";
+
+import StackGroup from '../Presentation/CompetencesComponent';
+import { Container } from "../../Styles/Styles";
+
+function Competences() {
+    const [ref, controls] = useScroll();
 
 	return (
-		<div data-aos="fade-up" className="comp">
+		<StyledTechnologies data-aos="fade-up" className="comp">
 			<h1 className="comp-title">Compétences</h1>
 			<br />
-			<div className="comp-group">
-                {data.filter((categorie) => categorie.active).sort((a, b) => (a.order > b.order ? 1 : -1)).map((categorie) => (
-                    <div key={categorie.id} className="comp-group-stack">
-                        <h3 style={{"textAlign":"center"}}>{categorie.nom}</h3>
-                        {categorie.collection
-                            .sort((a, b) => (a.rate < b.rate ? 1 : -1))
-                            .map((el) => (
-                                <div key={categorie.id+'-'+el.order} className="comp-group-stack-lng">
-                                    <div className="comp-group-stack-lng-name">
-                                        {el.nom}
-                                    </div>
-                                    <div className="comp-group-stack-lng-rate">
-                                        <div
-                                            style={{
-                                                '--val': el.rate * 20 + "%",
-                                                width: el.rate * 20 + "%",
-                                                // backgroundColor: el.color,
-                                            }}
-                                            className="rate-val"
-                                        >
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                            <br/>
-                        </div>
-                    ))}
-			</div>
-		</div>
+            <Grid>
+                <StackGroup icon={faCode}       title={data[0].nom} technologies={data[0].collection} />
+                <StackGroup icon={faLaptopCode} title={data[1].nom} technologies={data[1].collection} />
+                <StackGroup icon={faDatabase}   title={data[2].nom} technologies={data[2].collection} />
+                <StackGroup icon={faCode}       title={data[3].nom} technologies={data[3].collection} />
+            </Grid>
+		</StyledTechnologies>
 	);
 }
+
+const StyledTechnologies = styled(Container)`
+    flex-direction: column;
+`;
+
+const Grid = styled(motion.div)`
+	width: 100%;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	text-align: center;
+`;
 
 export default Competences;

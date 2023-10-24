@@ -2,45 +2,79 @@
     {
         "id": 10,
         "nom": "DS Exotiques",
+        "active": true,
         "type": "Application Web",
         "description": "Blog culinaire",
         "lien": "https://ds-exotiques.fr",
+        "lien_github": "https://github.com/JoSMITH973/ds-exotiques",
         "orientation": "paysage",
         "main_image": "images/dsexotiques/dsexotiques.png",
         "color": "#0d6efd",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "ReactJS",
+            "NodeJS",
+            "JSON"
+        ],
         "images": []
     },
     {
         "id": 20,
         "nom": "SVentory",
+        "active": true,
         "type": "Application Web",
         "description": "Application de gestion d'inventaire",
-        "lien": "",
+        "lien": "https://sventory.freeboxos.fr/",
+        "lien_github": "https://github.com/JoSMITH973/SventoryApp",
         "orientation": "paysage",
         "main_image": "images/sventory/sventory.png",
         "color": "#000000",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "ReactJS",
+            "NodeJS",
+            "MariaDB"
+        ],
         "images": []
     },
     {
         "id": 30,
         "nom": "Your Favorites Simpsons",
+        "active": true,
         "type": "Application Web",
-        "description": "Application sur laquelle vous pouvez consulter",
-        "lien": "",
+        "description": "Application sur laquelle vous pouvez découvrir des personnages des Simpson ainsi que leurs phrases cultes. Ajoutez les dans vos favoris afin de pouvoir les retrouver plus tard.",
+        "lien": "https://favorite-simpson.netlify.app/",
+        "lien_github": "https://github.com/JoSMITH973/your-favorites-simpsons",
         "orientation": "paysage",
         "main_image": "images/yourfavoritessimpson/yourfavoritessimpson.png",
         "color": "#16a085",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "ReactJS",
+            "API Externe"
+        ],
         "images": []
     },
     {
         "id": 40,
         "nom": "Galcktickos CB",
+        "active": false,
         "type": "Application Mobile",
         "description": "Application mobile de gestion d'inventaire",
         "lien": "",
+        "lien_github": "https://github.com/JoSMITH973/galcktickos_cb",
         "orientation": "portrait",
         "main_image": "images/galcktickoscb/galcktickoscb.png",
         "color": "#f5511e",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "React Native",
+            "NodeJS"
+        ],
         "images": []
     }
 ]
