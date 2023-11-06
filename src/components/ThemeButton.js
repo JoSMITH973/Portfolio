@@ -4,6 +4,7 @@ import { BsFillMoonFill } from "react-icons/bs";
 import { CgSun, CgsUN } from "react-icons/cg";
 import { MdWbSunny } from "react-icons/md";
 import styled from "styled-components";
+import Switch from "react-switch"
 
 function ThemeButton({theme, toggleTheme}) {
 
@@ -12,14 +13,15 @@ function ThemeButton({theme, toggleTheme}) {
     // }]
 
     return (
-        <BtnTheme onClick={toggleTheme}>
-            {theme ==="light" ? <BsFillMoonFill /> : <MdWbSunny />}
+        <DivTheme>
+            <Switch onChange={toggleTheme} checked={theme === "light"} checkedIcon={<BsFillMoonFill style={{marginLeft: "25%"}} />} uncheckedIcon={<MdWbSunny style={{marginLeft: "15%"}} />} />
+            {/* {theme ==="light" ? <BsFillMoonFill /> : <MdWbSunny />} */}
             {/* <input onClick={toggleTheme}/> */}
-        </BtnTheme>
+        </DivTheme>
     )
 }
 
-const BtnTheme = styled.label`
+const DivTheme = styled.label`
     z-index: 1;
     position: fixed;
     bottom: 1rem;
@@ -27,7 +29,7 @@ const BtnTheme = styled.label`
     display: flex;
     height: 20vw;
     width: 20vw;
-    border: 4px solid var(--color-main);
+    // border: 4px solid var(--color-main);
     // background-color: var(--color-main);
     border-radius: 50%;
     align-items: center;
@@ -40,13 +42,19 @@ const BtnTheme = styled.label`
         height: 5vw;
         width: 5vw;
     }
-
+    
     & > * {
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-        height: 60%;
-        color: var(--color-main);
+        transition: var(--transition-time);
+        // width: 60%;
+        // height: 60%;
+    }
+    div {
+        display: flex;
+    }
+    svg {
+        margin-top: auto;
+        margin-bottom: auto;
+        color: var(--color-main);   
     }
 `;
 
