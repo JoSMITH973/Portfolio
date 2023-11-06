@@ -26,8 +26,9 @@ function Accueil() {
 }
 
 const GrayscaleDiv = styled.div`
-    transition: backdrop-filter var(--transition-time);
+    transition: -webkit-backdrop-filter var(--transition-time);
     -webkit-backdrop-filter: grayscale(var(--grayscale-level));
+    transition: backdrop-filter var(--transition-time);
     backdrop-filter: grayscale(var(--grayscale-level));
     height: 100%;
     margin: 0 auto;
