@@ -51,22 +51,28 @@
         "active": true,
         "collection": [
             {
-                "nom": "PHP",
-                "order": 10,
-                "active": true,
-                "rate": "4",
-                "color": "#787cb4"
-            },
-            {
                 "nom": "JavaScript",
-                "order": 20,
+                "order": 10,
                 "active": true,
                 "rate": "4.25",
                 "color": "#f7e018"
             },
             {
+                "nom": "PHP",
+                "order": 20,
+                "active": true,
+                "rate": "4",
+                "color": "#787cb4"
+            },
+            {
                 "nom": "Python",
-                "order": 50,
+                "order": 30,
+                "active": true,
+                "rate": "2"
+            },
+            {
+                "nom": "Java",
+                "order": 40,
                 "active": true,
                 "rate": "2"
             }
