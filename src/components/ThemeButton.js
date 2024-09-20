@@ -14,7 +14,7 @@ function ThemeButton({theme, toggleTheme}) {
 
     return (
         <DivTheme>
-            <Switch onChange={toggleTheme} checked={theme === "light"} checkedIcon={<BsFillMoonFill style={{marginLeft: "25%"}} />} uncheckedIcon={<MdWbSunny style={{marginLeft: "15%"}} />} />
+            <Switch onChange={toggleTheme} onColor="#3DDC84" offColor="#2E2E3A" checked={theme === "light"} checkedIcon={<BsFillMoonFill style={{marginLeft: "25%"}} />} uncheckedIcon={<MdWbSunny style={{marginLeft: "15%"}} />} />
             {/* {theme ==="light" ? <BsFillMoonFill /> : <MdWbSunny />} */}
             {/* <input onClick={toggleTheme}/> */}
         </DivTheme>

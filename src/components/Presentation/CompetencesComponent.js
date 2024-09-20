@@ -49,7 +49,8 @@ const StackContainer = styled(motion.div)`
 	li {
 		font-size: 0.8rem;
 		margin-top: 0.5rem;
-	}Z
+		color: var(--color-text)
+	}
 `;
 const IconContainer = styled(motion.div)`
 	background: var(--color-second);

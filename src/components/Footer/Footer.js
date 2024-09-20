@@ -3,6 +3,7 @@ import data from "../../data/footer.json";
 import "./Footer.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
+import styled from "styled-components";
 
 function Footer() {
     const [linkedinLink, setLinkedinLink] = useState(null);
@@ -23,13 +24,13 @@ function Footer() {
 		<div className="footer">
 			<div className="footer-group">
                 <a target="_blank" rel="noreferrer" href={linkedinLink}>
-                    <BsLinkedin size={iconSize}  />
+                    <BsLinkedin color="var(--color-text)" size={iconSize}  />
                 </a>
                 <a target="_blank" rel="noreferrer" href={githubLink}>
-                    <BsGithub size={iconSize} />
+                    <BsGithub color="var(--color-text)" size={iconSize} />
                 </a>
                 <a target="_blank" rel="noreferrer" href={mailLink}>
-                    <FiMail size={iconSize} />
+                    <FiMail color="var(--color-text)" size={iconSize} />
                 </a>
 			</div>
             <br/>
