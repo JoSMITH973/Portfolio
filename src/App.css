@@ -80,9 +80,3 @@ section > div {
         padding: 0 5vh;
     }
 }
-
-#footer {
-    background-color: var(--themeColor);
-    color: white;
-    padding: 30px 0;
-}

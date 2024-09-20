@@ -3,7 +3,6 @@ import data from "../../data/footer.json";
 import "./Footer.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
-import styled from "styled-components";
 
 function Footer() {
     const [linkedinLink, setLinkedinLink] = useState(null);
@@ -15,7 +14,7 @@ function Footer() {
         setLinkedinLink(data.filter(a=>a.name==="LinkedIn")[0].url);
         setGithubLink(data.filter(a=>a.name==="GitHub")[0].url);
         setMailLink(data.filter(a=>a.name==="Mail")[0].url);
-    }, [data]);
+    }, []);
 
     // Définition de la taille des icones de linkedin et github
     let iconSize = 35;
