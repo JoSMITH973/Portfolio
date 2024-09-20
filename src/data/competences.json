@@ -1,6 +1,6 @@
 [
     {
-        "nom": "Front-End",
+        "nom": "Frameworks & WEB",
         "id": 1,
         "order": 10,
         "icon": "faCode",
@@ -44,9 +44,9 @@
         ]
     },
     {
-        "nom": "Back-End",
-        "id": 2,
-        "order": 20,
+        "nom": "POO",
+        "id": 3,
+        "order": 30,
         "icon": "faLaptopCode",
         "active": true,
         "collection": [
@@ -75,13 +75,19 @@
                 "order": 40,
                 "active": true,
                 "rate": "2"
+            },
+            {
+                "nom": "COBOL",
+                "order": 50,
+                "active": true,
+                "rate": "2.5"
             }
         ]
     },
     {
         "nom": "Serveur",
-        "id": 3,
-        "order": 30,
+        "id": 4,
+        "order": 40,
         "active": true,
         "collection": [
             {
@@ -100,8 +106,8 @@
     },
     {
         "nom": "Base De Données",
-        "id": 4,
-        "order": 40,
+        "id": 5,
+        "order": 50,
         "icon": "faDatabase",
         "active": true,
         "collection": [

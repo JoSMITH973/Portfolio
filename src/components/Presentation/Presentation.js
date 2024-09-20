@@ -7,13 +7,24 @@ import { motion } from "framer-motion";
 import { useScroll } from "../../util/useScroll";
 import { slideAnim } from "../../util/animation";
 
-import { faCode, faDatabase, faRuler } from '@fortawesome/fontawesome-free-solid';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDatabase, faPalette, faServer } from '@fortawesome/fontawesome-free-solid';
+import { faClockRotateLeft, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import StackGroup from './CompetencesComponent';
+import { useEffect, useState } from 'react';
 
 function About() {
 
     const [ref, controls] = useScroll();
+    const [age, setAge] = useState(0);
+    useEffect(() => {
+        const currentDate = new Date();
+        const birthDate = new Date('1999/05/03');
+        let ageYear = currentDate.getFullYear() - birthDate.getFullYear();
+        if(currentDate.getMonth() <= birthDate.getMonth()) {
+            if(currentDate.getMonth() < birthDate.getMonth() || (currentDate.getMonth() == birthDate.getMonth() && currentDate.getDay() < birthDate.getDay())) setAge(ageYear-1);
+        }
+        else setAge(ageYear);
+    }, [])
 
     return (
         <div>
@@ -26,7 +37,7 @@ function About() {
                         <br/>
                         <br/>
                         Impatient de mettre en pratique mes connaissances je me suis dirigé vers l'alternance pour effectuer mes études. 
-                        J'ai commencé par un BTS SNIR, puis enchaîner sur un Bachelor Concepteur Développeur et viens de terminer mes études par un <span>Mastère Développeur Manageur Full-Stack.</span>
+                        J'ai commencé par un BTS SNIR, puis enchaîner sur un Bachelor Concepteur Développeur et ait terminé mes études par un <span>Mastère Développeur Manageur Full-Stack.</span>
                         <br/>
                         <br/>
                         <span>L'apprentissage est la clé de la réussite !</span>
@@ -63,12 +74,12 @@ function About() {
                             <span>const</span> Joan SMITH = &#123;<br/>
                         </p>
                             <Properties>
-                                <span> Age     </span> = 24,<br/>
+                                <span> Age     </span> = {age},<br/>
                                 <span> Ville   </span> = "Paris",<br/>
                                 <span> Anglais   </span> = "B2",<br/>
                                 <span> Espagnol  </span> = "A2",<br/>
                                 <span> Diplôme  </span> = "BAC +5",<br/>
-                                <span> Années en alternance </span> = "5 ans"<br/>
+                                <span> Developpeur depuis </span> = "{new Date().getFullYear()-2018} ans" <br/>
                             </Properties>
                             <br/>
                             &#125;;
@@ -79,10 +90,10 @@ function About() {
                 <motion.h2 className="comp-title">Compétences</motion.h2>
                 <br />
                 <Grid>
-                    <StackGroup icon={faCode}       title={data[0].nom} technologies={data[0].collection} />
-                    <StackGroup icon={faLaptopCode} title={data[1].nom} technologies={data[1].collection} />
-                    <StackGroup icon={faDatabase}   title={data[2].nom} technologies={data[2].collection} />
-                    <StackGroup icon={faCode}       title={data[3].nom} technologies={data[3].collection} />
+                    <StackGroup icon={faLaptopCode}      title={data[0].nom} technologies={data[0].collection} />
+                    <StackGroup icon={faCode}            title={data[1].nom} technologies={data[1].collection} />
+                    <StackGroup icon={faClockRotateLeft} title={data[3].nom} technologies={data[3].collection} />
+                    <StackGroup icon={faClockRotateLeft} title={data[4].nom} technologies={data[4].collection} />
                 </Grid>
             </StyledCompetences>
         </div>

@@ -54,9 +54,9 @@ function App() {
 				{/* <section id="parcours">
 					<Parcours />
 				</section> */}
-				<section id="projets">
+				{/* <section id="projets">
 					<Projets />
-				</section>
+				</section> */}
 				<footer id="footer">
 					<Footer />
 				</footer>
