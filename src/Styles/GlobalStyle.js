@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     --color-gradient: ${props => props.theme.gradientColor};
     --grayscale-level: ${props => props.theme.backdropFilter};
     --transition-time: ${props => props.theme.transitionTime};
+    --background-color-date: ${props => props.theme.dateBackgroundColor};
     --font-mono: "Roboto Mono", sans-serif;
     --font-sans: 'Inter', sans-serif;
   }

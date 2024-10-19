@@ -43,9 +43,9 @@ function TopBar ({toggleTheme, theme}) {
                         {/* <NavLink key="4" onClick={() => setExpanded(false)} className="nav-link" smooth duration={250} spy to="parcours">        
                             Parcours
                         </NavLink> */}
-                        {/* <NavLink key="5" onClick={() => setExpanded(false)} className="nav-link" smooth duration={250} spy to="projets">         
+                        <NavLink key="5" onClick={() => setExpanded(false)} className="nav-link" smooth duration={250} spy to="projets">         
                             Projets
-                        </NavLink> */}
+                        </NavLink>
                         <a href={process.env.PUBLIC_URL+'/cv/CV_Joan_SMITH.pdf'} target="_blank" rel="noopener noreferrer" onClick={() => setExpanded(false)} className="nav-link">Mon CV</a>
                         
                         {/* <Label className="nav-link">

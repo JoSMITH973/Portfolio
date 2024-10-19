@@ -51,11 +51,6 @@ function Projets() {
 										<li key={technologie}>{technologie}</li>
 									))}
 								</Technologies>
-								<a href={proj.lien_github} target="_blank" rel="noreferrer">
-									<FontAwesomeIcon
-										icon={faCode}
-									></FontAwesomeIcon>
-								</a>
 							</More>
 						</About>
 					</FeaturedProject>
@@ -73,20 +68,24 @@ const StyledProjects = styled(motion.div)`
 	padding: 5rem 2rem;
 	margin: 0 auto;
 	display: flex;
-	
 	flex-direction: column;
 `;
 
 const FeaturedProject = styled(motion.div)`
+	height: 18rem;
 	margin-bottom: 4rem;
     align-items: center;
-	@media (min-width: 850px) {
-		display: flex;
+	display: flex;
+	width: 100%;
+	max-width: 90vw;  
+	align-self: center;
+	@media screen and (min-width: 768px) {
+		max-width: 80vw;
 	}
 `;
 
 const Header = styled.div`
-	padding: 1rem 2rem;
+	flex: 1;
 	p {
 		font-weight: bold;
 		font-size: 0.7rem;
@@ -94,36 +93,46 @@ const Header = styled.div`
 	}
 `;
 const AboutText = styled.div`
-	padding: 2rem;
+	flex: 3;
+	// padding: 2rem;
 	background: var(--color-bg-2);
     border-radius: 0 5px 5px 0;
 `;
 const More = styled.div`
-	padding: 1rem;
+	flex: 2;
 	display: flex;
 	gap: 0.75rem;
 	align-items: center;
+	ul {
+		padding-left: 0;
+	}
 `;
 
 const About = styled.div`
 	flex: 1;
+	div {
+		padding: 1rem
+	}
 `;
 
 const ImageDiv = styled.div`
 	position: relative;
 	flex: 1;
 	display: flex;
+	justify-content: center;
 	align-items: center;
-    max-Height: 15vh;
+	height: 100%;
     width: auto;
 `;
 
 const Image = styled.img`
+	position: absolute;
     max-width: 100%;
     max-height: 100%;
+    width: auto;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
-`
-
+`;
 
 export default Projets;

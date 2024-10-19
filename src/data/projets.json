@@ -4,18 +4,19 @@
         "nom": "DS Exotiques",
         "active": true,
         "type": "Application Web",
-        "description": "Blog culinaire",
+        "description": "Blog culinaire destiné à la présentation de divers entrées, plats et désserts originaux et uniques ⭐️.\nBack-Office intégré afin de pouvoir gérer le contenu du site de manière simplifiée et consulter les statistiques du statistiques.",
         "lien": "https://ds-exotiques.fr",
         "lien_github": "https://github.com/JoSMITH973/ds-exotiques",
         "orientation": "paysage",
         "main_image": "images/dsexotiques/dsexotiques.png",
         "color": "#0d6efd",
         "technologies": [
-            "HTML5",
-            "CSS3",
-            "ReactJS",
-            "NodeJS",
-            "JSON"
+            "HTML / CSS",
+            "MariaDB",
+            "React JS",
+            "Node JS",
+            "Express JS",
+            "Multer"
         ],
         "images": []
     },
@@ -24,18 +25,18 @@
         "nom": "SVentory",
         "active": true,
         "type": "Application Web",
-        "description": "Application de gestion d'inventaire",
-        "lien": "https://sventory.freeboxos.fr/",
+        "description": "Système de gestion des stocks de produits alimentaires et pharmaceutiques permettant aux foyers de s’organiser facilement et efficacement pour gérer les articles essentiels du quotidien.",
+        "lien": "",
         "lien_github": "https://github.com/JoSMITH973/SventoryApp",
         "orientation": "paysage",
         "main_image": "images/sventory/sventory.png",
         "color": "#000000",
         "technologies": [
-            "HTML5",
-            "CSS3",
-            "ReactJS",
-            "NodeJS",
-            "MariaDB"
+            "HTML/CSS",
+            "MariaDB",
+            "React JS",
+            "Node JS",
+            "Express JS"
         ],
         "images": []
     },
@@ -51,9 +52,8 @@
         "main_image": "images/yourfavoritessimpson/yourfavoritessimpson.png",
         "color": "#16a085",
         "technologies": [
-            "HTML5",
-            "CSS3",
-            "ReactJS",
+            "HTML / CSS",
+            "React JS",
             "API Externe"
         ],
         "images": []
@@ -61,9 +61,9 @@
     {
         "id": 40,
         "nom": "Galcktickos CB",
-        "active": false,
+        "active": true,
         "type": "Application Mobile",
-        "description": "Application mobile de gestion d'inventaire",
+        "description": "Application mobile de gestion d'inventaire.",
         "lien": "",
         "lien_github": "https://github.com/JoSMITH973/galcktickos_cb",
         "orientation": "portrait",

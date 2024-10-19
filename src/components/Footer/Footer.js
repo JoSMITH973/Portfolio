@@ -33,7 +33,7 @@ function Footer() {
                 </a>
 			</div>
             <br/>
-            <p>© Copyright 2023 - Joan SMITH. Tous droits réservés.</p>
+            <p>© Copyright 2024 - Joan SMITH. Tous droits réservés.</p>
 		</div>
 	);
 }

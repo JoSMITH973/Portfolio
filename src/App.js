@@ -48,15 +48,12 @@ function App() {
 				<section id="presentation">
 					<Presentation />
 				</section>
-				{/* <section id="competences">
-					<Competences />
-				</section> */}
-				{/* <section id="parcours">
+				<section id="parcours">
 					<Parcours />
-				</section> */}
-				{/* <section id="projets">
+				</section>
+				<section id="projets">
 					<Projets />
-				</section> */}
+				</section>
 				<footer id="footer">
 					<Footer />
 				</footer>

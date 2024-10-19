@@ -21,9 +21,9 @@ function Parcours() {
                         </h6>
                     )}
                     {parc.date && (
-                        <p className='parc-group-div-date'>
+                        <PDate className='parc-group-div-date'>
                             {parc.date}
-                        </p>
+                        </PDate>
                     )}
                     {parc.description && (
                         <div className='parc-group-div-descr'>
@@ -43,6 +43,10 @@ const Grid = styled(motion.div)`
 	gap: 2rem;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	text-align: center;
+`;
+
+const PDate = styled.p`
+    background-color: var(--background-color-date)
 `;
 
 export default Parcours;

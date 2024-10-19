@@ -17,7 +17,8 @@ const lightTheme = {
 	boxShadow: "8px 8px 18px #d4d4d4, -8px -8px 18px #ffffff",
 	keyword: "blue",
 	className: "#78b3da",
-    transitionTime: transitionTime
+    transitionTime: transitionTime,
+	dateBackgroundColor: "#dddddd",
 };
 
 const darkTheme = {
@@ -34,7 +35,8 @@ const darkTheme = {
 	boxShadow: "8px 8px 18px #0F172A, -8px -8px 18px #0F172A",
 	keyword: "#326cb8",
 	className: "#389d89",
-    transitionTime: transitionTime
+    transitionTime: transitionTime,
+	dateBackgroundColor: "#1C1C28",
 };
 
 function Theme({ children, theme }) {
