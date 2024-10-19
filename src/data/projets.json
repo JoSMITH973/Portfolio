@@ -11,7 +11,8 @@
         "main_image": "images/dsexotiques/dsexotiques.png",
         "color": "#0d6efd",
         "technologies": [
-            "HTML / CSS",
+            "HTML5",
+            "CSS3",
             "MariaDB",
             "React JS",
             "Node JS",
@@ -32,7 +33,8 @@
         "main_image": "images/sventory/sventory.png",
         "color": "#000000",
         "technologies": [
-            "HTML/CSS",
+            "HTML5",
+            "CSS3",
             "MariaDB",
             "React JS",
             "Node JS",
@@ -52,7 +54,8 @@
         "main_image": "images/yourfavoritessimpson/yourfavoritessimpson.png",
         "color": "#16a085",
         "technologies": [
-            "HTML / CSS",
+            "HTML5",
+            "CSS3",
             "React JS",
             "API Externe"
         ],
@@ -63,7 +66,7 @@
         "nom": "Galcktickos CB",
         "active": true,
         "type": "Application Mobile",
-        "description": "Application mobile de gestion d'inventaire.",
+        "description": "Application mobile de gestion d’inventaire. Gérez efficacement l’inventaire de votre entreprise directement depuis votre smartphone en utilisant la caméra pour scanner les QR codes ou codes-barres des articles. Pour garantir la sécurité, les modifications de stock ne peuvent être effectuées que dans les zones autorisées définies par l’entreprise.",
         "lien": "",
         "lien_github": "https://github.com/JoSMITH973/galcktickos_cb",
         "orientation": "portrait",
