@@ -72,15 +72,20 @@ const StyledProjects = styled(motion.div)`
 `;
 
 const FeaturedProject = styled(motion.div)`
-	height: 18rem;
 	margin-bottom: 4rem;
-    align-items: center;
+	align-items: center;
 	display: flex;
 	width: 100%;
 	max-width: 90vw;  
 	align-self: center;
+	@media screen and (max-width: 768px) {
+		max-height: 50rem;
+		flex-direction: column;
+		width: 100%;
+		height: 33rem;
+	}
 	@media screen and (min-width: 768px) {
-		max-width: 80vw;
+		height: 18rem;
 	}
 `;
 
@@ -123,6 +128,9 @@ const ImageDiv = styled.div`
 	align-items: center;
 	height: 100%;
     width: auto;
+	@media screen and (max-width: 768px) {
+		width: 100%;
+	}
 `;
 
 const Image = styled.img`
